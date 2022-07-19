@@ -1,0 +1,4 @@
+Dataset,Accent,#Speakers,# Hours,Size (GiB),Paper,Access,License
+`TED-LIUM`_,--,--,452,54,`TED-LIUM-paper`_,open,--
+`MAILABS`_,UK,--,45,4.9,,open,--
+`MAILABS`_,US,--,102,11,,open,--

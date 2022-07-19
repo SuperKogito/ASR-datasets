@@ -1,0 +1,7 @@
+Dataset,Accent,# Speakers,# Hours,Size (GiB),Paper,Access,License
+`Common Voice 10.1`_,--,--,1136,29,--,open,--
+`SWC`_,--,--,248,--,--,open,--
+`MAILABS`_,--,--,237,27,--,open,--
+`Tuda-De`_,--,--,184,--,--,open,--
+`Voxforge`_,--,--,56,--,--,open,--
+`Zamia`_,--,--,18,--,--,open,--
