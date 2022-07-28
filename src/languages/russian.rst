@@ -1,10 +1,10 @@
 Datasets
 ========
 
-Automatic Speech Recognition Datasets for the Arabic language.
+Automatic Speech Recognition Datasets for the Russian language.
 
 .. csv-filter:: ASR-Datasets
-   :file: ./asr-datasets-arabic.csv
+   :file: ./asr-datasets-russian.csv
    :header-rows: 1
    :class: datatable
 
@@ -15,7 +15,7 @@ References
 
 .. datasets
 
-.. _`http://en.arabicspeechcorpus.com/`: https://www.openslr.org/51/
+.. _`Living Audio Dataset`: https://github.com/Idlak/Living-Audio-Dataset
 
 .. license
 
@@ -31,6 +31,8 @@ References
 .. _`IEMOCAP license`: https://sail.usc.edu/iemocap/Data_Release_Form_IEMOCAP.pdf
 .. _`SEWA EULA`: https://db.sewaproject.eu/media/doc/eula.pdf
 .. _`Meld: GPL-3.0 License`: https://github.com/declare-lab/MELD/blob/master/LICENSE
+.. _`Apache License 2.0`: https://github.com/Idlak/Living-Audio-Dataset/blob/master/LICENSE
+
 
 .. papers
 
