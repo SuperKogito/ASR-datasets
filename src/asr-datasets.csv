@@ -1,4 +1,7 @@
 Language,# Datasets, # Hours,Size (GiB),Last update
+`Arabic <./languages/arabic.html>`_,1,452,54,2022-07-19
+`Dutch <./languages/dutch.html>`_,3,452,54,2022-07-19
 `English <./languages/english.html>`_,3,599,69.9,2022-07-19
 `French <./languages/french.html>`_,3,452,54,2022-07-19
 `German <./languages/german.html>`_,3,452,54,2022-07-19
+`Russian <./languages/russian.html>`_,1,452,54,2022-07-19
