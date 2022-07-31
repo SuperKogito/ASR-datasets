@@ -1,0 +1,7 @@
+Dataset,Accent,# speakers,# Hours,Size (GiB),Paper,Access,License
+`Arabic Speech Corpus`_,South Levantine,--,0.3,1.1,`ASC-paper`_,open,`CC BY 4.0`_
+`Tunisian MSA`_,Tunisian,118,11,1.2,--,open,`Apache License 2.0`_
+`Yemeni Arabic Conversational Speech Corpus`_,Yemeni,10,10.42,0.737,--,open,`Magic Data Open-Source License`_
+`Egyptian Arabic Conversational Speech Corpus`_,Egyptian,18,5.5,0.254,--,open,`Magic Data Open-Source License`_
+`Common Voice Corpus 10.0`_,--,--,87,3,--,open,`CC0`_
+`Multilingual TEDx`_,--,--,18,3.6,`MTEDx paper`_,open,`CC BY 4.0`_

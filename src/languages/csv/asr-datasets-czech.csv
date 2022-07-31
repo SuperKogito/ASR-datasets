@@ -1,0 +1,7 @@
+Dataset,Accent,# speakers,# Hours,Size (GiB),Paper,Access,License
+`Vystadial 2016 – Czech data`_,--,--,--,5.94,..,open,`CC BY-SA 4.0`_
+`OVM – Otázky Václava Moravce`_,--,--,35,--,--,open,`CC BY-NC 3.0`_
+`Czech Parliament Meetings`_,--,--,--,--,--,open,`CC BY-NC-ND 3.0`_
+`Large Corpus of Czech Parliament Plenary Hearings`_,--,--,444,--,--,open,`CC BY-NC-ND 3.0`_
+`Common Voice Corpus 10.0`_,--,--,57,2,--,open,`CC0`_
+`voxpopuli`_,--,--,--,--,`VoxPopuli paper`_,open,`CC BY-NC 4.0`_

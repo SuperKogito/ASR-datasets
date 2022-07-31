@@ -1,0 +1,5 @@
+Dataset,Accent,# speakers,# Hours,Size (GiB),Paper,Access,License
+`Common Voice Corpus 10.0`_,--,--,17,0.662,--,open,`CC0`_
+`CSS10`_,--,4,1,--,`CSS10 paper`_,open,`Apache License 2.0`_
+`voxpopuli`_,--,--,--,--,`VoxPopuli paper`_,open,`CC BY-NC 4.0`_
+`Multilingual TEDx`_,--,--,30,5.5,`MTEDx paper`_,open,`CC BY 4.0`_

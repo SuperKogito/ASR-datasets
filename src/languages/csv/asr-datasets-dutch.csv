@@ -1,0 +1,8 @@
+Dataset,Accent,# Speakers,# Hours,Size (GiB),Paper,Access,License
+`Common Voice Corpus 10.0`_,--,--,100,3,--,open,`CC0`_
+`SWC`_,--,145,224,--,--,open,`CC BY 4.0`_
+`Voxforge`_,--,--,56,--,--,open,--
+`Living Audio Dataset`_,--,1,1,--,--,open,`Apache License 2.0`_
+`voxpopuli`_,--,--,--,--,`VoxPopuli paper`_,open,`CC BY-NC 4.0`_
+`CSS10`_,--,1,14,--,`CSS10 paper`_,open,`Apache License 2.0`_
+`Multilingual LibriSpeech (MLS)`_,--,--,2253.68,86,`MLS paper`_,open,`CC BY 4.0`_

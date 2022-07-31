@@ -4,20 +4,23 @@ Datasets
 Automatic Speech Recognition Datasets for the Arabic language.
 
 .. csv-filter:: ASR-Datasets
-   :file: ./asr-datasets-arabic.csv
+   :file: csv/asr-datasets-arabic.csv
    :header-rows: 1
    :class: datatable
 
 
-References
-==========
-
-
 .. datasets
 
-.. _`http://en.arabicspeechcorpus.com/`: https://www.openslr.org/51/
+.. _`Arabic Speech Corpus`: http://en.arabicspeechcorpus.com/
+.. _`Tunisian MSA`: http://www.openslr.org/46/
+.. _`Yemeni Arabic Conversational Speech Corpus`: https://magichub.com/datasets/yemeni-arabic-conversational-speech-corpus/
+.. _`Egyptian Arabic Conversational Speech Corpus`: https://magichub.com/datasets/egyptian-arabic-conversational-speech-corpus/
+.. _`Common Voice Corpus 10.0`: https://commonvoice.mozilla.org/en/datasets
+.. _`Multilingual TEDx`: http://www.openslr.org/100/
+
 
 .. license
+.. _`CC0`: https://creativecommons.org/share-your-work/public-domain/cc0/
 
 .. _`CC BY 4.0`: https://creativecommons.org/licenses/by/4.0/
 .. _`CC BY-NC-SA 4.0`: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -31,7 +34,10 @@ References
 .. _`IEMOCAP license`: https://sail.usc.edu/iemocap/Data_Release_Form_IEMOCAP.pdf
 .. _`SEWA EULA`: https://db.sewaproject.eu/media/doc/eula.pdf
 .. _`Meld: GPL-3.0 License`: https://github.com/declare-lab/MELD/blob/master/LICENSE
+.. _`Apache License 2.0`: https://www.apache.org/licenses/LICENSE-2.0s
+.. _`Magic Data Open-Source License`: https://magichub.com/magic-data-open-source-license/
+
 
 .. papers
-
 .. _`ASC-paper`: http://en.arabicspeechcorpus.com/Nawar%20Halabi%20PhD%20Thesis%20Revised.pdf
+.. _`MTEDx paper`: https://arxiv.org/pdf/2102.01757.pdf

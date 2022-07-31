@@ -1,0 +1,13 @@
+Dataset,Accent,# Speakers,# Hours,Size (GiB),Paper,Access,License
+`Common Voice 10.1`_,--,--,1136,29,--,open,--
+`SWC`_,--,339,386,11,--,open,`CC BY 4.0`_
+`MAILABS`_,--,--,237,27,--,open,--
+`Tuda-De`_,--,--,184,--,--,open,--
+`Voxforge`_,--,--,56,--,--,open,--
+`Zamia`_,--,--,18,--,--,open,--
+`CSS10`_,--,16.5,1,--,`CSS10 paper`_,open,`Apache License 2.0`_
+`voxpopuli`_,--,--,--,--,`VoxPopuli paper`_,open,`CC BY-NC 4.0`_
+`German Scripted Speech Corpus`_,--,10,0.71,0.062,--,open,`Magic Data open-source license`_
+`German Conversational Speech Corpus`_,--,4,6.55,0.406,--,open,`Magic Data open-source license`_
+`Multilingual LibriSpeech (MLS)`_,--,--,3287.48,115,`MLS paper`_,open,`CC BY 4.0`_
+`Multilingual TEDx`_,--,--,15,2.6,`MTEDx paper`_,open,`CC BY 4.0`_

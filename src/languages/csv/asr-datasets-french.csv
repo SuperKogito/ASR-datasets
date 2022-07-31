@@ -1,0 +1,7 @@
+Dataset,Accent,# Speakers,# Hours,Size (GiB),Paper,Access,License
+`Common Voice 10.1`_,--,--,868,23,--,open,--
+`CSS10`_,--,19,1,--,`CSS10 paper`_,open,`Apache License 2.0`_
+`MAILABS`_,--,--,190.5,21,--,open,--
+`voxpopuli`_,--,--,--,--,`VoxPopuli paper`_,open,`CC BY-NC 4.0`_
+`Multilingual LibriSpeech (MLS)`_,--,--,1333.35,61,`MLS paper`_,open,`CC BY 4.0`_
+`Multilingual TEDx`_,--,--,189,34,`MTEDx paper`_,open,`CC BY 4.0`_

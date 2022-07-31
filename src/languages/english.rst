@@ -4,44 +4,42 @@ Datasets
 Automatic Speech Recognition Datasets for the English language.
 
 .. csv-filter:: ASR-Datasets
-   :file: ./asr-datasets-english.csv
+   :file: csv/asr-datasets-english.csv
    :header-rows: 1
    :class: datatable
 
 
-References
-==========
+Corpora
+=======
+
+List of corpora for the English language.
+
+.. csv-filter:: Corpora
+  :file: csv/corpora-english.csv
+  :header-rows: 1
+  :class: datatable
 
 
-.. datasets
+.. Corpora
+.. _`Europal`: https://www.statmt.org/europarl/
 
-.. _`TED-LIUM`: https://www.openslr.org/51/
-.. _`MAILABS`: https://www.kaggle.com/datasets/dejolilandry/asvpesdspeech-nonspeech-emotional-utterances
-.. _`LJ Speech`: https://keithito.com/LJ-Speech-Dataset/
-.. _`LibriSpeech`: https://www.openslr.org/12
+
+
+
+
+
+.. dataset
+.. _`CC BY 4.0`: https://creativecommons.org/licenses/by/4.0/
+.. _`Common Voice 10.1`: https://commonvoice.mozilla.org/en/datasets
+.. _`MAILABS`: https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/
 .. _`SWC`: https://nats.gitlab.io/swc/
-.. _`Living Audio Dataset`: https://github.com/Idlak/Living-Audio-Dataset
-
-
-
+.. _`Multilingual LibriSpeech (MLS)`: http://www.openslr.org/94/
+.. _`CSTR VCTK Corpus`: https://datashare.ed.ac.uk/handle/10283/3443
 
 .. license
-
-.. _`Public Domain`: https://librivox.org/pages/public-domain/
 .. _`CC BY 4.0`: https://creativecommons.org/licenses/by/4.0/
-.. _`CC BY-NC-SA 4.0`: https://creativecommons.org/licenses/by-nc-sa/4.0/
-.. _`CC BY-NC-ND 4.0`: https://creativecommons.org/licenses/by-nc-nd/4.0/
-.. _`CC-BY license`: https://metashare.ut.ee/repository/download/4d42d7a8463411e2a6e4005056b40024a19021a316b54b7fb707757d43d1a889/
-.. _`Permitted Non-commercial Re-use with Acknowledgment`: https://guides.library.uq.edu.au/deposit_your_data/terms_and_conditions
-.. _`Open Database License & Database Content License`: https://github.com/CheyneyComputerScience/CREMA-D/blob/master/LICENSE.txt
-.. _`CC0 1.0`: https://creativecommons.org/publicdomain/zero/1.0/
-.. _`CMU-MOSEI License`: https://github.com/A2Zadeh/CMU-MultimodalSDK/blob/master/LICENSE.txt
-.. _`CMU-MOSI License`: https://github.com/A2Zadeh/CMU-MultimodalSDK/blob/master/LICENSE.txt
-.. _`IEMOCAP license`: https://sail.usc.edu/iemocap/Data_Release_Form_IEMOCAP.pdf
-.. _`SEWA EULA`: https://db.sewaproject.eu/media/doc/eula.pdf
-.. _`Meld: GPL-3.0 License`: https://github.com/declare-lab/MELD/blob/master/LICENSE
-.. _`Apache License 2.0`: https://github.com/Idlak/Living-Audio-Dataset/blob/master/LICENSE
 
-.. papers
 
-.. _`TED-LIUM-paper`: https://arxiv.org/abs/1805.04699
+
+.. paper
+.. _`MLS paper`: https://arxiv.org/pdf/2012.03411.pdf

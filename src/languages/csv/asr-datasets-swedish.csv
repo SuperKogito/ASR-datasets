@@ -1,0 +1,5 @@
+Dataset,Accent,# speakers,# Hours,Size (GiB),Paper,Access,License
+`Common Voice Corpus 10.0`_,--,--,42,1,--,open,`CC0`_
+`NST Swedish ASR Database`_,--,1000,--,--,--,open,`CC0`_
+`NST Swedish Dictation`_,--,195,--,--,--,open,`CC0`_
+`NST Swedish Speech Synthesis`_,--,1,--,--,--,open,`CC0`_

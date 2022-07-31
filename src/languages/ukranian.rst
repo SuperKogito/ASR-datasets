@@ -1,10 +1,10 @@
 Datasets
 ========
 
-Automatic Speech Recognition Datasets for the Russian language.
+Automatic Speech Recognition Datasets for the Ukranian language.
 
 .. csv-filter:: ASR-Datasets
-   :file: csv/asr-datasets-russian.csv
+   :file: csv/asr-datasets-ukranian.csv
    :header-rows: 1
    :class: datatable
 
@@ -15,10 +15,7 @@ References
 
 .. datasets
 .. _`Common Voice Corpus 10.0`: https://commonvoice.mozilla.org/en/datasets
-.. _`CSS10`: https://github.com/Kyubyong/css10
 .. _`MAILABS`: https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/
-.. _`Multilingual TEDx`: http://www.openslr.org/100/
-
 
 .. license
 .. _`CC0`: https://creativecommons.org/share-your-work/public-domain/cc0/
@@ -34,10 +31,8 @@ References
 .. _`IEMOCAP license`: https://sail.usc.edu/iemocap/Data_Release_Form_IEMOCAP.pdf
 .. _`SEWA EULA`: https://db.sewaproject.eu/media/doc/eula.pdf
 .. _`Meld: GPL-3.0 License`: https://github.com/declare-lab/MELD/blob/master/LICENSE
-.. _`Apache License 2.0`: https://github.com/Idlak/Living-Audio-Dataset/blob/master/LICENSE
 
+.. papers
 
-.. paper
-.. _`CSS10 paper`: https://arxiv.org/abs/1903.11269
+.. _`ASC-paper`: http://en.arabicspeechcorpus.com/Nawar%20Halabi%20PhD%20Thesis%20Revised.pdf
 .. _`VoxPopuli paper`: https://aclanthology.org/2021.acl-long.80/
-.. _`MTEDx paper`: https://arxiv.org/pdf/2102.01757.pdf

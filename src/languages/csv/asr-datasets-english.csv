@@ -2,7 +2,11 @@ Dataset,Accent,# Speakers,# Hours,Size (GB),Paper,Access,License
 `TED-LIUM`_,--,--,452,54,`TED-LIUM-paper`_,open,--
 `MAILABS`_,UK,--,45,4.9,--,open,--
 `MAILABS`_,US,--,102,11,--,open,--
-`LJ Speech`_,_,1,24,2.6,--,open,`Public Domain`_
+`LJ Speech`_,_,1,24,2.6,1,open,`Public Domain`_
 `LibriSpeech`_,--,--,1000,60,--,open,`CC BY 4.0`_
 `SWC`_,--,395,395,12,--,open,`CC BY 4.0`_
 `Living Audio Dataset`_,--,1,1,--,--,open,--,`Apache License 2.0`_
+`Common Voice Corpus 10.0`_,--,--,2275,73,--,open,`CC0`_
+`voxpopuli`_,--,--,--,--,`VoxPopuli paper`_,open,`CC BY-NC 4.0`_
+`Multilingual LibriSpeech (MLS)`_,--,--,71506.79,2400,`MLS paper`_,open,`CC BY 4.0`_
+`CSTR VCTK Corpus`_,--,110,--,10.94,--,open,`CC BY 4.0`_ 
