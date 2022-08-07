@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Datasets &#8212; 🧠 SuperKogito/ASR-datasets  documentation</title>
+    <script>
+      document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+      document.documentElement.dataset.theme = localStorage.getItem("theme") || "light"
+    </script>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx_contributors.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/tree_graph.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/social_media_sharing.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <script src="../_static/js/main.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en">
+    
+
+    <!-- Google Analytics -->
+    
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-133660046-1', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60" data-default-mode="">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="../index.html">
+<p class="title">🧠 SuperKogito/ASR-datasets</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://superkogito.github.io/index.html">Home<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://superkogito.github.io/projects.html">Projects<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://superkogito.github.io/blog.html">Blog<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://superkogito.github.io/about.html">About Me<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this site..." aria-label="Search this site..." autocomplete="off" >
+</form>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/superkogito/asr-datasets" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+          
+            <div class="d-none d-md-block col-md-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Datasets
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#corpora">
+   Corpora
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          <main class="col-12 col-md-9  py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section id="datasets">
+<h1>Datasets<a class="headerlink" href="#datasets" title="Permalink to this heading">#</a></h1>
+<p>Automatic Speech Recognition Datasets for the Spanish language.</p>
+<table class="datatable table" id="id1">
+<caption><span class="caption-text">ASR-Datasets</span><a class="headerlink" href="#id1" title="Permalink to this table">#</a></caption>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Dataset</p></th>
+<th class="head"><p>Accent</p></th>
+<th class="head"><p># Speakers</p></th>
+<th class="head"><p># Hours</p></th>
+<th class="head"><p>Size (GiB)</p></th>
+<th class="head"><p>Paper</p></th>
+<th class="head"><p>Access</p></th>
+<th class="head"><p>License</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://commonvoice.mozilla.org/en/datasets">Common Voice Corpus 10.0</a></p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p>411</p></td>
+<td><p>19</p></td>
+<td><p>–</p></td>
+<td><p>open</p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://github.com/Kyubyong/css10">CSS10</a></p></td>
+<td><p>–</p></td>
+<td><p>23.85</p></td>
+<td><p>1</p></td>
+<td><p>–</p></td>
+<td><p><a class="reference external" href="https://arxiv.org/abs/1903.11269">CSS10 paper</a></p></td>
+<td><p>open</p></td>
+<td><p><a class="reference external" href="https://github.com/Idlak/Living-Audio-Dataset/blob/master/LICENSE">Apache License 2.0</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/">MAILABS</a></p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p>108.5</p></td>
+<td><p>12</p></td>
+<td><p>–</p></td>
+<td><p>open</p></td>
+<td><p>–</p></td>
+</tr>
+<tr class="row-odd"><td><p><a href="#id2"><span class="problematic" id="id3">`voxpopuli`_</span></a></p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p><a class="reference external" href="https://aclanthology.org/2021.acl-long.80/">VoxPopuli paper</a></p></td>
+<td><p>open</p></td>
+<td><p><a href="#id4"><span class="problematic" id="id5">`CC BY-NC 4.0`_</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.kaggle.com/datasets/carlfm01/120h-spanish-speech">120h Spanish Speech</a></p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p>120</p></td>
+<td><p>13.82</p></td>
+<td><p>–</p></td>
+<td><p>open</p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://www.openslr.org/94/">Multilingual LibriSpeech (MLS)</a></p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p>1438.41</p></td>
+<td><p>50</p></td>
+<td><p><a class="reference external" href="https://arxiv.org/pdf/2012.03411.pdf">MLS paper</a></p></td>
+<td><p>open</p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://www.openslr.org/100/">Multilingual TEDx</a></p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p>189</p></td>
+<td><p>35</p></td>
+<td><p><a class="reference external" href="https://arxiv.org/pdf/2102.01757.pdf">MTEDx paper</a></p></td>
+<td><p>open</p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="corpora">
+<h1>Corpora<a class="headerlink" href="#corpora" title="Permalink to this heading">#</a></h1>
+<p>List of corpora for the Spanish language.</p>
+</section>
+
+
+              </div>
+              
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+<footer class="footer mt-5 mt-md-0">
+      <!-- Site footer -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <ul class="footer-links">
+              <li>
+                    &copy; Copyright 2022, Ayoub Malek.<br/>
+                  This blog is created using <a href="http://sphinx-doc.org/">Sphinx</a> and the tools from <a href="https://executablebooks.org/en/latest/">The Executable Book Project</a>.<br/>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-2">
+            <ul class="footer-links">
+              <li><a href="https://superkogito.github.io/policy/privacy_policy.html">Privacy Policy</a></li>
+              <li><a href="https://superkogito.github.io/policy/cookies_policy.html">Cookies policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-2">
+            <ul class="footer-links">
+              <li><a href="https://superkogito.github.io/policy/terms_and_conditions.html">Terms and conditions</a></li>
+              <li><a href="https://superkogito.github.io/policy/disclaimer.html">Disclaimer</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-2">
+            <ul class="footer-links">
+              <li><a href="https://superkogito.github.io/policy/contribute.html">Contribute</a></li>
+              <li><a href="https://superkogito.github.io/sitemap.xml">Sitemap</a></li>
+            </ul>
+          </div>
+
+    </div>
+  </footer>
+  </body>
+</html>
